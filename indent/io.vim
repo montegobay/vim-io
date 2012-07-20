@@ -30,7 +30,7 @@ function GetIoIndent()
 
 	let ind = indent(lnum)
 	let flag = 0
-	if getline(lnum) =~ '(\s*$'
+	if getline(lnum) =~ '([^)]*$'
 		let ind = ind + &sw
 		let flag = 1
 	endif
