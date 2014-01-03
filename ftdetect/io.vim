@@ -4,3 +4,4 @@
 " License:     MIT
 
 autocmd BufNewFile,BufRead *.io set filetype=io
+autocmd BufNewFile,BufRead .iorc set filetype=io
